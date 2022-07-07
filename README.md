@@ -1,5 +1,8 @@
-▪ The vehicle starts from position (0, 0) and cruises down a straight road in the x-direction. A static pedestrian is placed at position (60, 0) in the middle of the road. The vehicle uses LIDAR to detect the pedestrian and once the pedestrian is detected (Dsense ≤ d(t)), the vehicle will start braking at constant deceleration user provided. The vehicle will keep decelerating until its speed reaches 0.
-▪ Tried different values of the parameters Dsense, v0, ab, Treact and record corresponding d(t) after the vehicle is stopped. Compared the results from simulation with the invariants.
+# Work
+
+1. The vehicle starts from position (0, 0) and cruises down a straight road in the x-direction. A static pedestrian is placed at position (60, 0) in the middle of the road. The vehicle uses LIDAR to detect the pedestrian and once the pedestrian is detected (Dsense ≤ d(t)), the vehicle will start braking at constant deceleration user provided. The vehicle will keep decelerating until its speed reaches 0.
+
+2. Tried different values of the parameters Dsense, v0, ab, Treact and record corresponding d(t) after the vehicle is stopped. Compared the results from simulation with the invariants.
 
 Steps:
 1. source devel/setup.bash
